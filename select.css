@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(249, 234, 244);
+}
+#head{
+    background-color: white;
+    float: left;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+nav{
+    float: right;
+    margin-right: 100px;
+}
+#nav{
+    border: 0px;
+    background-color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div#head{
+    width: 100%;
+}
+button#nav:hover{
+    border-bottom: 1px solid purple;
+    color: purple;
+    padding-bottom: 0px;
+}
+
+img.desc1{
+    border-radius: 50%;
+    height: 300px;
+}
+#desc1{
+    float: left;
+    padding: 30px;
+    padding-left: 100px;
+}
+#desc2{
+    float: left;
+    padding: 30px;
+    padding-left: 10px;
+}
+h1.desc1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(112, 112, 240);
+}
+p.desc1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 1px solid yellow;
+    color: rgb(88, 8, 110);
+    margin-top: 0px;
+    margin-left: 35px;
+    font-size: 25px;
+    text-align: center;
+    width: fit-content;  
+}
+h1.desc2{
+    padding-top: 100px;
+    font-family: "Lobster", sans-serif;
+    margin: 0px;
+    font-size: 50px;
+    text-align: left;
+    color: rgb(112, 112, 240);
+    
+}
+div.desc2b{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: rgb(88, 8, 110);
+    margin-top: 5px;
+    font-size: 25px;
+    text-align: left;
+    width: fit-content;  
+}
+.desc{
+    height: 450px;
+}
+.list{
+    background-color: white;
+}
+
+td.text{
+    font-family: "Abril Fatface", serif;
+    font-weight: 1000;
+    font-size: 39px;
+    text-align: center;
+    padding-top: 0px;
+}
+td img{
+    height: 400px;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+table{
+    margin-left: 20px;
+}
+td img:hover{
+    opacity: 70%;
+}
+.checked {
+    color: orange;
+  }
+.fa{
+    padding-left: 30px;
+}
+.first{
+    padding-left: 90px;
+}
+iframe{
+    margin-left: 250px;
+    margin-top: 50px;
+    height: 720px;
+    width: 1240px;
+}
+div.text{
+        font-family: "Abril Fatface", serif;
+        font-weight: 1000;
+        font-size: 39px;
+        margin-left: 250px;
+        padding-top: 20px;
+    }
+div.txt{
+        font-size: 20px;
+        margin-left: 250px;
+        margin-right: 290px;
+        padding-top: 20px;
+}

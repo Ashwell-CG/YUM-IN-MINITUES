@@ -1,0 +1,72 @@
+#head{
+    float: left;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+nav{
+    float: right;
+    margin-right: 100px;
+}
+#nav{
+    border: 0px;
+    background-color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div#head{
+    width: 100%;
+}
+#para{
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin-left: 80px;
+}
+
+
+img.item{
+    height: 600px;
+    display: block;
+    transition: 0.5s;
+    z-index: -10;
+}
+
+.items:hover{
+    opacity: 70% ;
+    transition: 0.3s;
+}
+div.lable{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    margin-top: -23px;
+    z-index: 10;
+}
+j.label{
+    background-color: rgb(229, 146, 13);
+    padding: 5px 30px 5px 30px ;
+    margin-right: 20px;
+    color: white;
+    font-weight: 800;
+}
+button#nav:hover{
+    border-bottom: 1px solid purple;
+    color: purple;
+    padding-bottom: 0px;
+}
+.footer{
+    width: 100%;
+    font-size: 20px;
+    background-color: rgb(241, 239, 239);
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+    font-family: DynaPuff;
+}
